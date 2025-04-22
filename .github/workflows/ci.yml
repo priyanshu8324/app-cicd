@@ -26,6 +26,6 @@ jobs:
       - name: Build and push Docker image to GHCR
         uses: docker/build-push-action@v5
         with:
-          context: ./app
+          context: .
           push: true
           tags: ghcr.io/priyanshu8324/app-cicd:latest
